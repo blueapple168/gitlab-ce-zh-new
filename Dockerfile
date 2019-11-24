@@ -2,7 +2,7 @@ FROM gitlab/gitlab-ce:12.3.5-ce.0 as builder
 
 ENV GITLAB_DIR=/opt/gitlab/embedded/service/gitlab-rails
 #ENV GITLAB_GIT_ZH=https://gitlab.com/caeret/gitlab-ce.git
-ENV GITLAB_GIT_ZH=https://gitee.com/webboyvc/gitlab.git
+ENV GITLAB_GIT_ZH=https://github.com/webboyvc/gitlab.git
 
 RUN set -xe \
     && echo " # Preparing ..." \
